@@ -1,0 +1,18 @@
+{
+  "name": "asme-archive",
+  "main": "Archive.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/as-me/Archive",
+  "authors": [
+    "Sanjay krishna anbalagan <sanjay1909@gmail.com>"
+  ],
+  "description": "Read and write json as Zip files",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

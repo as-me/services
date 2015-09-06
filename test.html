@@ -1,0 +1,35 @@
+<html>
+
+<head>
+</head>
+
+<body>
+    <script src="bower_components/jszip/dist/jszip.js"></script>
+    <script src="bower_components/html2canvas/build/html2canvas.js"></script>
+    <script src="Archive.js"></script>
+    <script>
+        var json = {
+            "employees": [
+                {
+                    "firstName": "John",
+                    "lastName": "Doe"
+                },
+                {
+                    "firstName": "Anna",
+                    "lastName": "Smith"
+                },
+                {
+                    "firstName": "Peter",
+                    "lastName": "Jones"
+                }
+]
+        };
+
+        asme.Archive.history = json;
+        var byteArray = asme.Archive.createFileContent();
+
+        //saveAs(byteArray, "example.zip");
+    </script>
+</body>
+
+</html>

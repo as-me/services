@@ -1,0 +1,31 @@
+{
+  "name": "asme-archive",
+  "version": "1.0.0",
+  "description": "Creates zip content for JSON files",
+  "main": "Archive.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/as-me/Archive.git"
+  },
+  "keywords": [
+    "zip",
+    "json",
+    "compressed"
+  ],
+  "author": "Sanjay Krishna Anbalagan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/as-me/Archive/issues"
+  },
+  "homepage": "https://github.com/as-me/Archive#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  },
+  "dependencies": {
+    "bower": "^1.5.2",
+    "jszip": "^2.5.0"
+  }
+}
