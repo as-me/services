@@ -196,9 +196,7 @@ if (typeof window === 'undefined') {
     };
 
     function generateAppArchive() {
-        return weave.path().getValue('import "weave.compiler.StandardLib";\
-			import "weave.core.WeaveArchive";\
-			return StandardLib.btoa(WeaveArchive.createWeaveFileContent());');
+        return asme.Archive.createFileContent(false);
     };
 
     function generateAppFileName() {
